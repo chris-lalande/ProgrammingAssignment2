@@ -31,6 +31,6 @@ cacheSolve <- function(x, ...) {
     }
     data <- x$get()
     cm <- solve(data, ...)
-    x$setmatrix(m)
+    x$setmatrix(cm)
     cm
 }
